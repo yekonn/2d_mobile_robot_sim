@@ -1,6 +1,6 @@
 # 2B Otonom Mobil Robot Navigasyonu ve Sensör Füzyonu
 
-![Simülasyon Animasyonu](assets/simulasyon.gif)
+![Simülasyon Animasyonu](assets/dashboard.gif)
 
 Bu proje, 15x15 metrelik karmaşık ve engellerle dolu bir ortamda, hedef noktasına güvenle ulaşmaya çalışan otonom bir mobil robotun Python tabanlı simülasyonudur. Sistem, gerçek dünya kısıtlarını (sensör gürültüleri ve sürüklenme hataları) modelleyerek, Genişletilmiş Kalman Filtresi (EKF) ve Yapay Potansiyel Alanlar (APF) algoritmaları ile bu zorlukların üstesinden gelmektedir.
 
