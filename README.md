@@ -27,13 +27,25 @@ Projeyi kendi bilgisayarınızda çalıştırmak için Python 3.8 veya üzeri bi
 git clone https://github.com/yekonn/2d_mobile_robot_sim.git
 cd 2d_mobile_robot_sim
 ```
+2. Sanal ortam oluşturun ve aktifleştirin:
 
-2. Gerekli kütüphaneleri yükleyin:
+* Windows için:
+```bash
+python -m venv venv
+.\venv\Scripts\activate
+```
+
+* macOS / Linux için:
+```bash
+python3 -m venv venv
+source venv/bin/activate
+```
+3. Gerekli kütüphaneleri yükleyin:
 ```bash
 pip install numpy matplotlib
 ```
 
-3. Ana simülasyonu başlatın:
+4. Ana simülasyonu başlatın:
 ```bash
 python main.py
 ```
